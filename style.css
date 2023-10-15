@@ -2,12 +2,16 @@ table{
     width: 100%;
     border-collapse: collapse;
 }
+tr{
+    height: 40px;
+}
 td{
     border: 1px dotted;
 }
 #first-row{
     background-color: #958f8f;
     color: #21ED5B;
+    height: 80px;
 }
 #first-row:hover{
     color: #958f8f;
@@ -30,20 +34,20 @@ td{
 }
 
 #circle1 {
-    top: 100px;
+    top: 250px;
     left: 75px;
     background-color: rgba(255, 0, 0, 0.5);
 
 }
 
 #circle2 {
-    top: 160px;
+    top: 310px;
     left: 110px;
     background-color: rgba(0, 255, 0, 0.5);
 }
 
 #circle3 {
-    top: 160px;
+    top: 310px;
     left: 40px;
     background-color: rgba(0, 0, 255, 0.5);
 }
@@ -57,20 +61,20 @@ td{
 }
 
 #circle4 {
-    top: 100px;
+    top: 250px;
     left: 300px;
     background-color: rgba(255, 0, 0, 0.5);
 
 }
 
 #circle5 {
-    top: 160px;
+    top: 310px;
     left: 335px;
     background-color: rgba(0, 255, 0, 0.5);
 }
 
 #circle6 {
-    top: 160px;
+    top: 310px;
     left: 265px;
     background-color: rgba(0, 0, 255, 0.5);
 }
